@@ -2,7 +2,7 @@ console.log("Welcome to Spotify");
 
 // Initialize the Variables
 let songIndex = 0;
-let audioElement = new Audio('songs/1.mp3');
+let audioElement = new Audio('1.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
@@ -10,7 +10,7 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Janam dekh lo mit gayi dooriya", filePath: 'songs/1.mp3', coverPath: "covers/1.jpg"},
+    {songName: "Janam dekh lo mit gayi dooriya", filePath: '1.mp3', coverPath: "1.jpg"},
     {songName: "Pyaar hua Ekraar hua hai.....", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
     {songName: "Jisse Jindagi dhoond rahu hai......", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
     {songName: "Let me love you do - Justin Beiber", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
